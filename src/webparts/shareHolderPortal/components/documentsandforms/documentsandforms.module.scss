@@ -1,0 +1,90 @@
+.documentsandforms {
+  .contentHead {
+    padding: 5px;
+    color: black !important;
+    -webkit-box-shadow: 0px 5px 5px 0px rgba(244,172,92,1);
+    -moz-box-shadow: 0px 5px 5px 0px rgba(244,172,92,1);
+    box-shadow: 0px 5px 5px 0px rgba(244,172,92,1);
+    background-color: #f4c55c;
+  }
+
+  .paper {
+    padding: 10px;
+  }
+
+  .tabsStyles {
+    color: black;
+    background-color: #eee;
+  }
+
+  .cardCategory {
+    padding: 10px;
+  }
+
+  .inputColor:focus {
+    color: blue;
+  }
+
+  .docPDF {
+    margin-left: "3px";
+    color: #cb2030;
+    fontSize: 20px;
+  }
+  .docLink {
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .docTblHead {
+    color: #976340;
+  }
+  .accountInfoBtn {
+    background-color: #976340;
+    color: white !important;
+    float: right;
+  }
+  .accountInfoBtn:hover {
+    background-color: #976340;
+    color: white !important;
+    float: right;
+  }
+
+  .errorTextarea {
+    border-bottom: 2px solid #cb2030;
+  }
+
+  .snackbarSucess {
+    background-color: #43a047;
+  }
+  .tblHeadCell {
+    color: black;
+  }
+  .tabsStyles {
+    color: black;
+    background-color: #e0e0e0;
+  }
+
+  .tblHeadSortLink{
+    padding: 10px;
+    color:white!important;
+    background: #275458;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+
+  .accountIDLink{
+    padding: 10px;
+    background: #b5bdb2;
+    border-radius: 5px;
+    cursor: pointer!important;
+    font-weight: bold;
+  }
+
+  .selectedDocTableHead{
+    color: black !important;
+    -webkit-box-shadow: 0px 5px 5px 0px rgba(244,172,92,1);
+    -moz-box-shadow: 0px 5px 5px 0px rgba(244,172,92,1);
+    box-shadow: 0px 5px 5px 0px rgba(244,172,92,1);
+    background-color: #f4c55c;
+  }
+}

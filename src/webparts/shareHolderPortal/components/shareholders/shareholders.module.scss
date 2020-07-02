@@ -1,0 +1,532 @@
+.shareholders {
+
+  .printtestSCSS{
+    background: red;
+    background-color: red;
+    color: white;
+  }
+
+  .genralinputColor {
+    color: black;
+  }
+  .snackbarSucess {
+    background-color: #43a047;
+  }
+  .contentHead {
+    padding: 5px;
+    color: black !important;
+    -webkit-box-shadow: 0px 5px 5px 0px rgba(244,172,92,1);
+    -moz-box-shadow: 0px 5px 5px 0px rgba(244,172,92,1);
+    box-shadow: 0px 5px 5px 0px rgba(244,172,92,1);
+    background-color: #f4c55c;
+  }
+  .page{
+    margin: 5mm
+  }
+
+  .paper {
+    padding: 10px;
+  }
+
+  .tabsStyles {
+    color: black;
+    background-color: #e0e0e0;
+    -webkit-box-shadow: 0px -1px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px -1px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px -1px 5px 0px rgba(0,0,0,0.75);
+  }
+
+  .cardHead {
+    margin-top: -30px !important;
+    color: white !important;
+    background: linear-gradient(60deg, #ef5350, #e53935);
+    box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.14),
+      0 7px 10px -5px rgba(244, 67, 54, 0.4);
+  }
+
+  .container_documentMailingAddress {
+    margin-top: -30px !important;
+    color: black !important;
+    -webkit-box-shadow: 0px 5px 5px 0px rgba(244,172,92,1);
+    -moz-box-shadow: 0px 5px 5px 0px rgba(244,172,92,1);
+    box-shadow: 0px 5px 5px 0px rgba(244,172,92,1);
+    background-color: #f4c55c;
+  }
+
+  .container_trustee {
+    margin-top: -30px !important;
+    color: black !important;
+    -webkit-box-shadow: 0px 5px 5px 0px rgba(244,172,92,1);
+    -moz-box-shadow: 0px 5px 5px 0px rgba(244,172,92,1);
+    box-shadow: 0px 5px 5px 0px rgba(244,172,92,1);
+    background-color: #f4c55c;
+  }
+
+  .container_shareholder {
+    margin-top: -30px !important;
+    color: black !important;
+    -webkit-box-shadow: 0px 5px 5px 0px rgba(244,172,92,1);
+    -moz-box-shadow: 0px 5px 5px 0px rgba(244,172,92,1);
+    box-shadow: 0px 5px 5px 0px rgba(244,172,92,1);
+    background-color: #f4c55c;
+  }
+
+  .cardHead_General {
+    margin-top: -30px !important;
+    color: black !important;
+    -webkit-box-shadow: 0px 5px 5px 0px rgba(244,172,92,1);
+    -moz-box-shadow: 0px 5px 5px 0px rgba(244,172,92,1);
+    box-shadow: 0px 5px 5px 0px rgba(244,172,92,1);
+    background-color: #f4c55c;
+  }
+  .cardCategory {
+    padding: 10px;
+  }
+
+  .inputColor:focus {
+    color: blue;
+  }
+
+  .accountInfoBtn {
+    background-color: #976340;
+    color: white !important;
+    float: right;
+  }
+  .accountInfoBtn:hover {
+    background-color: #275458 ;
+  }
+  .snackbarColor {
+    background-color: #43a047;
+  }
+  .stepperColor {
+    border-color: #275458 ;
+    color: #275458  !important;
+  }
+  .stepperBtn {
+    background-color: #275458  !important;
+    color: white;
+  }
+  /*Main ShareHolidings*/
+  .viewAllshareholdingsLink {
+    padding: 20px;
+    color: #976340;
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+  /*Admin ShareHolidings*/
+  .docTblHead {
+    background: rgb(224, 224, 224);
+  }
+  .docTblCell {
+    color: white;
+  }
+
+  .tblCell {
+    line-height: 0.8rem;
+  }
+
+  /* Elections CSS*/
+
+  .elections {
+    padding: 10px;
+  }
+  .electionSubHeadings {
+    color: #275458;
+    font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans,
+      Helvetica Neue, Arial, sans-serif;
+  }
+  .electionsGeneralText {
+    font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans,
+      Helvetica Neue, Arial, sans-serif !important;
+    font-size: 13px;
+    margin-bottom: 0 !important;
+  }
+  .alignAlert {
+    margin-bottom: 0 !important;
+  }
+  .lbalInput {
+    color: black !important;
+  }
+  .electionSubmitBtn {
+    background-color: #275458 ;
+    color: white !important;
+    float: right;
+  }
+  .electionSubmitBtn:hover {
+    background-color: #275458 ;
+    color: white !important;
+    float: right;
+  }
+  .formHelperTextStyles{
+    font-weight: bold;
+    margin-top: -8x!important;
+    margin-bottom: 8px!important;
+  }
+
+  /* Delegates CSS*/
+
+  .delegates {
+    padding: 10px;
+    margin-top: 10px;
+  }
+  .table {
+    color: black;
+    width: 100%;
+  }
+  .tableHead {
+    background: #b5bdb2;
+    color: black !important;
+  }
+  .inviteBtn {
+    background-color: #275458 ;
+    color: white !important;
+  }
+  .inviteBtn:hover {
+    background-color: #275458 ;
+    color: white !important;
+  }
+  .delegateBtns {
+    background-color: #275458 ;
+    color: white !important;
+    margin-bottom: 10px;
+  }
+  .delegateBtns:hover {
+    background-color: #275458 ;
+    color: white !important;
+  }
+
+  /*Admin Delegates CSS*/
+
+  .editLink {
+    cursor: pointer;
+    color: #275458  !important;
+  }
+
+  .deleteLink {
+    cursor: pointer;
+    color: rgb(220, 72, 72) !important;
+  }
+
+  .inputClass {
+    color: #275458 ;
+  }
+
+  /* Other Information*/
+
+  .otherInformation {
+    padding: 10px;
+    margin-top: 10px;
+  }
+
+  .eventIconStyles{
+    color: #275458 !important;
+    cursor: pointer!important;
+  }
+
+  /* Equity Holdings*/
+
+  .equityHoldings {
+    padding: 10px;
+    margin-top: 10px;
+  }
+
+  /* Documents*/
+  .docPDF {
+    color: #dc4848;
+  }
+  .docLink {
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .docTblHead {
+    background: rgb(224, 224, 224);
+    color: black;
+  }
+  .docTblCell {
+    color: black;
+  }
+
+  /* custom input Filed*/
+
+  .mdDivtextfield {
+    display: inline-block!important;
+    height: 60px;
+    padding-top: 25px;
+    position: relative!important;
+  }
+
+  .mdDivtextfield .mdtextfieldinput {
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    background: transparent;
+    border: 0;
+    border-bottom: 1px solid #9e9e9e;
+    font-family: "Roboto", sans-serif;
+    font-size: 13px;
+    padding: 4px 0;
+    position: relative;
+    z-index: 1;
+  }
+
+  .mdDivtextfield .mdtextfieldinput:focus {
+    outline: none;
+  }
+
+  .mdDivtextfield label {
+    color: #9e9e9e;
+    font-family: "Roboto", sans-serif;
+    font-size: 13px;
+    left: 0;
+    position: absolute;
+    top: 29px;
+    transition: top 0.1s ease-in 0s;
+    z-index: 0;
+  }
+
+  .mdDivtextfield .mdtextfieldinput:focus + label {
+    color: #3f51b5;
+    top: 12px;
+  }
+
+  .mdDivtextfield .mdtextfieldinput + label + .indicator {
+    border-bottom: 2px solid #3f51b5;
+    height: 0;
+    position: absolute;
+    top: 47px;
+    transition: width 0.1s ease-in 0s;
+    width: 0;
+    z-index: 2;
+  }
+
+  .mdDivtextfield .mdtextfieldinput:focus + label + .indicator {
+    width: 100%;
+  }
+
+  .mdDivtextfield .mdtextfieldinput:valid + label {
+    top: 12px;
+  }
+}
+
+/*
+
+
+.shareholders {
+  .genralinputColor {
+    color: black;
+  }
+  .contentHead {
+    padding: 5px;
+    color: white !important;
+    box-shadow: 0 2px 2px 0 rgba(255, 152, 0, 0.14),
+      0 3px 1px -2px rgba(255, 152, 0, 0.2), 0 1px 5px 0 rgba(255, 152, 0, 0.12);
+    background-color: #ff9800;
+  }
+
+  .paper {
+    padding: 10px;
+  }
+
+  .tabsStyles {
+    color: black;
+    background-color: #eee;
+  }
+
+  .cardHead {
+    margin-top: -30px !important;
+    color: white !important;
+    background: linear-gradient(60deg, #ef5350, #e53935);
+    box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.14),
+      0 7px 10px -5px rgba(244, 67, 54, 0.4);
+  }
+
+  .container_documentMailingAddress {
+    margin-top: -30px !important;
+    color: white !important;
+    background-color: #0c69cc;
+    -webkit-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.75);
+  }
+
+  .container_trustee {
+    margin-top: -30px !important;
+    color: white !important;
+    background-color: #0c69cc;
+    -webkit-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.75);
+  }
+
+  .container_shareholder {
+    margin-top: -30px !important;
+    color: white !important;
+    background-color: #0c69cc;
+    -webkit-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.75);
+  }
+
+  .cardHead_General {
+    margin-top: -30px !important;
+    color: white !important;
+    background-color: #0c69cc;
+    -webkit-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.75);
+  }
+  .cardCategory {
+    padding: 10px;
+  }
+
+  .inputColor:focus {
+    color: blue;
+  }
+  .accountInfoBtn {
+    background-color: #0c69cc;
+    color: white !important;
+    float: right;
+  }
+  .accountInfoBtn:hover {
+    background-color: #0c69cc;
+  }
+  .snackbarColor {
+    background-color: #43a047;
+  }
+  .stepperColor {
+    border-color: #0c69cc;
+    color: #0c69cc!important;
+  }
+  .stepperBtn{
+    background-color: #0c69cc!important;
+    color: white;
+  }
+  //Main ShareHolidings
+  .viewAllshareholdingsLink {
+    padding: 20px;
+    color: #0c69cc;
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+//Admin ShareHolidings
+  .docTblHead {
+    background: #ff9800;
+  }
+  .docTblCell {
+    color: white;
+  }
+
+  .tblCell{
+    line-height: 0.8rem
+  }
+
+ // Elections CSS
+
+  .elections {
+    padding: 10px;
+  }
+  .electionSubHeadings {
+    color: #0c69cc;
+    font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans,
+      Helvetica Neue, Arial, sans-serif;
+  }
+  .electionsGeneralText {
+    font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans,
+      Helvetica Neue, Arial, sans-serif !important;
+    font-size: 13px;
+    margin-bottom: 0 !important;
+  }
+  .alignAlert {
+    margin-bottom: 0 !important;
+  }
+  .lbalInput {
+    color: black !important;
+  }
+  .electionSubmitBtn {
+    background-color: #0c69cc;
+    color: white !important;
+    float: right;
+  }
+  .electionSubmitBtn:hover {
+    background-color: #0c69cc;
+    color: white !important;
+    float: right;
+  }
+
+  // Delegates CSS
+
+  .delegates {
+    padding: 10px;
+    margin-top: 10px;
+  }
+  .table {
+    color: black;
+    width: 100%;
+  }
+  .tableHead {
+    background: #ee3;
+    color: black !important;
+  }
+  .inviteBtn {
+    background-color: #0c69cc;
+    color: white !important;
+  }
+  .inviteBtn:hover {
+    background-color: #0c69cc;
+    color: white !important;
+  }
+  .delegateBtns {
+    background-color: #0c69cc;
+    color: white !important;
+    margin-bottom: 10px;
+  }
+  .delegateBtns:hover {
+    background-color: #0c69cc;
+    color: white !important;
+  }
+
+
+  //Admin Delegates CSS
+
+  .editLink{
+    cursor: pointer;
+    color:#0c69cc!important;
+  }
+
+  .deleteLink{
+    cursor: pointer;
+    color:rgb(220, 72, 72)!important;
+  }
+
+  .inputClass{
+    color: #0c69cc;
+  }
+
+  // Other Information
+
+  .otherInformation {
+    padding: 10px;
+    margin-top: 10px;
+  }
+
+  // Equity Holdings
+
+  .equityHoldings {
+    padding: 10px;
+    margin-top: 10px;
+  }
+
+  // Documents
+  .docPDF {
+    color: #dc4848;
+  }
+  .docLink {
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .docTblHead {
+    color: #ce8b28;
+  }
+}*/

@@ -1,0 +1,14 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "WAWA-Shareholder-Portal",
+    "id": "12a100b6-02f8-46ef-79a9-238e1e48112a", // Prod
+    // "id": "12a100b6-02f8-46ef-1000-238e1e48112b", // dev
+    // "id": "12a100b6-02f8-46ef-1111-238e1e48112c", // qa
+    "version": "1.0.1.3",
+    "includeClientSideAssets": true
+  },
+  "paths": {
+    "zippedPackage": "solution/WAWA-ShareholderPortal.sppkg"
+  }
+}

@@ -1,0 +1,91 @@
+.dashboard {
+  .contentHead {
+    padding: 5px;
+    color: black !important;
+    -webkit-box-shadow: 0px 5px 5px 0px rgba(244,172,92,1);
+    -moz-box-shadow: 0px 5px 5px 0px rgba(244,172,92,1);
+    box-shadow: 0px 5px 5px 0px rgba(244,172,92,1);
+    background-color: #f4c55c;
+  }
+
+
+  .paper {
+    padding: 10px;
+  }
+
+  .tabsStyles {
+    color: black;
+    background-color: #eee;
+  }
+
+  .container_documentMailingAddress {
+    margin-top: -30px !important;
+    color: black !important;
+    -webkit-box-shadow: 0px 5px 5px 0px rgba(244,172,92,1);
+    -moz-box-shadow: 0px 5px 5px 0px rgba(244,172,92,1);
+    box-shadow: 0px 5px 5px 0px rgba(244,172,92,1);
+    background-color: #f4c55c;
+  }
+
+  .container_trustee {
+    margin-top: -30px !important;
+    color: black !important;
+    -webkit-box-shadow: 0px 5px 5px 0px rgba(244,172,92,1);
+    -moz-box-shadow: 0px 5px 5px 0px rgba(244,172,92,1);
+    box-shadow: 0px 5px 5px 0px rgba(244,172,92,1);
+    background-color: #f4c55c;
+  }
+
+  .container_shareholder {
+    margin-top: -30px !important;
+    color: black !important;
+    -webkit-box-shadow: 0px 5px 5px 0px rgba(244,172,92,1);
+    -moz-box-shadow: 0px 5px 5px 0px rgba(244,172,92,1);
+    box-shadow: 0px 5px 5px 0px rgba(244,172,92,1);
+    background-color: #f4c55c;
+  }
+
+  .cardHead_General {
+    margin-top: -30px !important;
+    color: black !important;
+    -webkit-box-shadow: 0px 5px 5px 0px rgba(244,172,92,1);
+    -moz-box-shadow: 0px 5px 5px 0px rgba(244,172,92,1);
+    box-shadow: 0px 5px 5px 0px rgba(244,172,92,1);
+    background-color: #f4c55c;
+  }
+  .cardCategory {
+    padding: 10px;
+  }
+
+   .docPDF {
+    color: #cb2030;
+  }
+  .docLink {
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .docTblHead {
+    color: #cb2030;
+  }
+
+  .tblCell{
+    line-height: 0.8rem
+  }
+  .adminOnlyLinks{
+    color:black!important;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  .adminOnlyLinks:hover{
+    cursor: pointer;
+    color:black!important;
+    text-decoration: none;
+  }
+  .stockTbleHeadCell{
+    color: white;
+    padding: 10px;
+  }
+  .stockTbleCell{
+    padding: 10px;
+  }
+}
